@@ -11,7 +11,7 @@ setup(
     url='https://github.com/philipppahl/awslambda-psycopg2',
     license='Apache',
     packages=["psycopg2"],
-    long_description=open("README.rst").read(),
+    # long_description=open("README").read(),
     classifiers=[
         'Programming Language :: Python :: 3.7',
     ],

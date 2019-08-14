@@ -10,8 +10,9 @@ setup(
     maintainer_email='email_maintainer',
     url='https://github.com/philipppahl/awslambda-psycopg2',
     license='Apache',
-    packages=["psycopg2"],
-    # long_description=open("README").read(),
+    packages=['psycopg2'],
+    package_data={'psycopg2': ['_psycopg.cpython-37m-x86_64-linux-gnu.so']},
+    # long_description=open('README').read(),
     classifiers=[
         'Programming Language :: Python :: 3.7',
     ],
